@@ -34,4 +34,11 @@ class SkillController extends Controller
         $skills->update($request->validated());
         return response()->json("Skill Updated");
     }
+
+    // delete the skill
+    public function destroy(Skills $skills)
+    {
+        $skills->delete();
+        return response()->json("Skill Deleted");
+    }
 }
