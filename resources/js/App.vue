@@ -3,7 +3,9 @@
     <!-- header/footer -->
     <Navigation />
     <!-- router-view -->
-    <router-view></router-view>
+    <main class="max-w-7xl mx-auto min-h-screen">
+      <router-view></router-view>
+    </main>
   </div>
 </template>
 
