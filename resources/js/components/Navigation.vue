@@ -1,6 +1,7 @@
 <template>
-    <div class="max-w-7xl mx-auto">
-      <nav class="p-2">
+    <div class="max-w-7xl mx-auto py-4 bg-indigo-400 flex justify-between items-center px-2">
+      <div class="text-3xl font-medium">Laravel Vue CRUD using Composition API</div>
+      <nav class="">
         <RouterLink
           class="
             px-4
